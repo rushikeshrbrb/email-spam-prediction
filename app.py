@@ -34,8 +34,8 @@ def transform_text(text):
     y.append(ps.stem(i))
   return " ".join(y)
 
-tfidf=pickle.load(open('vectorizer.pkl','rb'))
-model=pickle.load(open('model.pkl','rb'))
+tfidf=pickle.load(open('vetorizer.pkl','rb'))
+model=pickle.load(open('modl.pkl','rb'))
 st.title("Email/SMS Spam Classifire")
 
 input_sms=st.text_input("Enter the mssg")
