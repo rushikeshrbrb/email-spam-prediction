@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import  string
-## import sklearn
+import sklearn
 
 
 import  nltk
